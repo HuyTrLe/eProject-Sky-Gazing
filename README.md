@@ -16,7 +16,7 @@ Project-title: Sky Gazing Website
                               Nguyễn Đình Nam                        Student1387805         
 ============================
 
-eProject documentation at: 
+eProject documentation at: https://github.com/HuyTrLe/eProject-Sky-Gazing/tree/master/document
 
 ============================
 
