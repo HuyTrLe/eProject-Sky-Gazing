@@ -1,0 +1,96 @@
+<div class="star-list__container" ng-controller="starlistCtrl" ng-repeat="x in dataList">
+    <div class="star-list__header-container">
+      <h1 class="star-list__header">
+          <span class="star-list__number">{{x.d1}}</span>
+          {{x.d2}}
+      </h1>
+      <ul class="star-list__tab">
+        <li class="star-list__tab-item">
+          <a href="#!star" class="star-list__tab-link">{{x.d3}}</a>
+        </li>
+        <li class="star-list__tab-item active-nav">
+            <a href="#!starlist" class="star-list__tab-link">{{x.d4}}</a>
+          </li>
+        <li class="star-list__tab-item">
+          <a href="#!comet" class="star-list__tab-link">{{x.d5}}</a>
+        </li>
+      </ul>
+    </div>
+    <ul class="star-list__list">
+        <li class="star-list__item">
+            <a href="#!starlistitem1" class="star-list__link">
+                <img src="./assets/star/aquarius-cover.jpg" alt="" class="star-list__img">
+                <div class="star-list__info-container">
+                    <h3 class="star-list__info-header">
+                        {{x.d6}}
+                    </h3>
+                    <p class="star-list__info">
+                        {{x.d7}}
+                        <br>
+                        {{x.d8}}
+                    </p>
+                </div>
+            </a>
+        </li>
+        <li class="star-list__item">
+            <a href="#!starlistitem2" class="star-list__link">
+                <img src="./assets/star/aquila-constellation.jpg" alt="" class="star-list__img">
+                <div class="star-list__info-container">
+                    <h3 class="star-list__info-header">
+                        {{x.d9}}
+                    </h3>
+                    <p class="star-list__info">
+                        {{x.d10}}
+                        <br>
+                        {{x.d11}}
+                    </p>
+                </div>
+            </a>
+        </li>
+        <li class="star-list__item">
+            <a href="#!starlistitem3" class="star-list__link">
+                <img src="./assets/star/aries-constellation.png" alt="" class="star-list__img">
+                <div class="star-list__info-container">
+                    <h3 class="star-list__info-header">
+                        {{x.d12}}
+                    </h3>
+                    <p class="star-list__info">
+                        {{x.d13}}
+                        <br>
+                        {{x.d14}}
+                    </p>
+                </div>
+            </a>
+        </li>
+        <li class="star-list__item">
+            <a href="#!starlistitem4" class="star-list__link">
+                <img src="./assets/star/caenis-major.jpg" alt="" class="star-list__img">
+                <div class="star-list__info-container">
+                    <h3 class="star-list__info-header">
+                        {{x.d15}}
+                    </h3>
+                    <p class="star-list__info">
+                        {{x.d16}}
+                        <br>
+                        {{x.d17}}
+                    </p>
+                </div>
+            </a>
+        </li>
+        <li class="star-list__item">
+            <a href="#!starlistitem5" class="star-list__link">
+                <img src="./assets/star/cygnus-constellation.jpg" alt="" class="star-list__img">
+                <div class="star-list__info-container">
+                    <h3 class="star-list__info-header">
+                        {{x.d18}}
+                    </h3>
+                    <p class="star-list__info">
+                        {{x.d19}}
+                        <br>
+                        {{x.d20}}
+                    </p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>

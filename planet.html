@@ -1,0 +1,408 @@
+<div class="planet__container" ng-controller="planetCtrl" ng-repeat="x in dataList">
+
+  <h2 class="planet__header"> 
+    <span class="planet__header-number">{{x.d1}}</span>
+    {{x.d2}}
+  </h2>
+   <!-- Tab items -->
+   <div class="tabs">
+    <div class="tab-item active-tab">
+      {{x.d3}}
+    </div>
+    <div class="tab-item">
+      {{x.d4}}
+    </div>
+    <div class="tab-item">
+      {{x.d5}}
+    </div>
+    <div class="tab-item">
+      {{x.d6}}
+    </div>
+    <div class="tab-item">
+      {{x.d7}}
+    </div>
+    <div class="tab-item">
+      {{x.d8}}
+    </div>
+    <div class="tab-item">
+      {{x.d9}}
+    </div>
+    <div class="tab-item">
+      {{x.d10}}
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <!-- Tab content -->
+  <div class="tab-content">
+    <div class="tab-pane active-tab">
+      <div class="planet__wrap">
+        <div class="planet__img-container">
+          <img src="./assets/img/traidat.png" alt="" class="planet__img">
+        </div>
+        <div class="planet__content-container">
+          <h2 class="planet__name">{{x.d11}}</h2>
+          <p class="planet__description">{{x.d12}}</p>
+          <hr>
+          <div class="planet__distance-container">
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d13}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t13}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d14}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t14}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d15}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t15}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d16}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t16}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="planet__wrap">
+        <div class="planet__img-container">
+          <img src="./assets/img/saohoa.png" alt="" class="planet__img">
+        </div>
+        <div class="planet__content-container">
+          <h2 class="planet__name">{{x.d17}}</h2>
+          <p class="planet__description">{{x.d18}}</p>
+          <hr>
+          <div class="planet__distance-container">
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d19}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t19}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d20}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t20}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d21}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t21}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d22}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t22}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="planet__wrap">
+        <div class="planet__img-container">
+          <img src="./assets/img/saomoc.png" alt="" class="planet__img">
+        </div>
+        <div class="planet__content-container">
+          <h2 class="planet__name">{{x.d23}}</h2>
+          <p class="planet__description">{{x.d24}}</p>
+          <hr>
+          <div class="planet__distance-container">
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d25}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t25}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d26}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t26}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d27}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t27}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d28}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t28}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="planet__wrap">
+        <div class="planet__img-container">
+          <img src="./assets/img/saothuy.png" alt="" class="planet__img">
+        </div>
+        <div class="planet__content-container">
+          <h2 class="planet__name">{{x.d29}}</h2>
+          <p class="planet__description">{{x.d30}}</p>
+          <hr>
+          <div class="planet__distance-container">
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d31}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t31}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d32}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t32}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d33}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t33}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d34}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t34}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="planet__wrap">
+        <div class="planet__img-container">
+          <img src="./assets/img/saokim.png" alt="" class="planet__img">
+        </div>
+        <div class="planet__content-container">
+          <h2 class="planet__name">{{x.d35}}</h2>
+          <p class="planet__description">{{x.d36}}</p>
+          <hr>
+          <div class="planet__distance-container">
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d37}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t37}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d38}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t38}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d39}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t39}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d40}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t40}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="planet__wrap">
+        <div class="planet__img-container">
+          <img src="./assets/img/saohaivuong.png" alt="" class="planet__img">
+        </div>
+        <div class="planet__content-container">
+          <h2 class="planet__name">{{x.d41}}</h2>
+          <p class="planet__description">{{x.d42}}</p>
+          <hr>
+          <div class="planet__distance-container">
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d43}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t43}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d44}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t44}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d45}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t45}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d46}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t46}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="planet__wrap">
+        <div class="planet__img-container">
+          <img src="./assets/img/saothienvuong.png" alt="" class="planet__img">
+        </div>
+        <div class="planet__content-container">
+          <h2 class="planet__name">{{x.d47}}</h2>
+          <p class="planet__description">{{x.d48}}</p>
+          <hr>
+          <div class="planet__distance-container">
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d49}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t49}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d50}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t50}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d51}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t51}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d52}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t52}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane">
+      <div class="planet__wrap">
+        <div class="planet__img-container">
+          <img src="./assets/img/saotho.png" alt="" class="planet__img">
+        </div>
+        <div class="planet__content-container">
+          <h2 class="planet__name">{{x.d53}}</h2>
+          <p class="planet__description">{{x.d54}}</p>
+          <hr>
+          <div class="planet__distance-container">
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d55}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t55}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d56}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t56}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d57}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t57}}
+              </p>
+            </div>
+            <div class="planet__distance-info">
+              <h2 class="planet__distance-title">
+                {{x.d58}}
+              </h2>
+              <p class="planet__distance-description">
+                {{x.t58}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>  

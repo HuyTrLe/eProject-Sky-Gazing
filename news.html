@@ -1,0 +1,73 @@
+<div class="news__container" ng-controller="newsCtrl" ng-repeat="x in dataList">
+    <h1 class="news__header">
+        <span class="news__number">{{x.d1}}</span>
+        {{x.d2}}
+    </h1>
+    <ul class="news__list">
+        <li class="news__item">
+            <a href="#!news1" class="news__link">
+                <img src="./assets/news/black-hole.jpg" alt="" class="news__img">
+                <div class="news__info-container">
+                    <h3 class="news__info-header">
+                       {{x.d3}}
+                    </h3>
+                    <p class="news__info">
+                      {{x.d4}}
+                    </p>
+                </div>
+            </a>
+        </li>
+        <li class="news__item">
+            <a href="#!news2" class="news__link">
+                <img src="./assets/news/gaia-mission.jpg.webp" alt="" class="news__img">
+                <div class="news__info-container">
+                    <h3 class="news__info-header">
+                      {{x.d5}}
+                    </h3>
+                    <p class="news__info">
+                      {{x.d6}}
+                    </p>
+                </div>
+            </a>
+        </li>
+        <li class="news__item">
+            <a href="#!news3" class="news__link">
+                <img src="./assets/news/mars-news.webp" alt="" class="news__img">
+                <div class="news__info-container">
+                    <h3 class="news__info-header">
+                     {{x.d7}}
+                    </h3>
+                    <p class="news__info">
+                    {{x.d8}}
+                    </p>
+                </div>
+            </a>
+        </li>
+        <li class="news__item">
+            <a href="#!news4" class="news__link">
+                <img src="./assets/news/acient-total-eclipses.webp" alt="" class="news__img">
+                <div class="news__info-container">
+                    <h3 class="news__info-header">
+                     {{x.d9}}
+                    </h3>
+                    <p class="news__info">
+                      {{x.d10}}
+                    </p>
+                </div>
+            </a>
+        </li>
+        <li class="news__item">
+            <a href="#!news5" class="news__link">
+                <img src="./assets/news/advanced-ai.webp" alt="" class="news__img">
+                <div class="news__info-container">
+                    <h3 class="news__info-header">
+                      {{x.d11}}
+                    </h3>
+                    <p class="news__info">
+                      {{x.d12}}
+                    </p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>

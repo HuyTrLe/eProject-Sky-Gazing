@@ -1,0 +1,34 @@
+[
+{
+        "d1":"Advanced AI discovers a treasure trove of gravitational lenses",
+        "d2":"advanced-ai.webp",
+        "d3":"This image shows a selection of the gravitational lenses identified in DECam images by a machine-learning algorithm. The lenses are faint and appear as arcs of light around a lensing object. (Image credit: AGEL Survey)",
+
+
+        "d4":"Advanced artificial intelligence has identified thousands of possible 'gravitational lenses' — warps in space-time predicted by Albert Einstein — promising to enhance our understanding of dark matter and the evolution of galaxies.",
+   
+        "d5":"Einstein realized that mass warps space, and massive galaxies and galaxy clusters can distort space around them to such a degree that they form a cosmic lens, bending and magnifying the path of light from more distant galaxies through that warped space.",
+
+        "d6":"Gravitational lenses are important tools for cosmologists. They can magnify the light of distant galaxies that are too faint to be otherwise seen in detail, or reveal where invisible dark matter is warping space. However, astronomers had only about a hundred good gravitational lenses to use.", 
+
+        "d7":"Now, a team led by Kim-Vy Tran, an astronomer at ASTRO 3D (the ARC Centre of Excellence for All Sky Astrophysics in 3 Dimensions) and the University of New South Wales in Australia, employed a machine-learning algorithm called a convolutional neural network to search for gravitational lenses in images taken by the Dark Energy Camera (DECam) on the Victor M. Blanco 4-meter telescope at the Cerro Tololo Inter-American Observatory in Chile.",
+  
+        "d8":"The algorithm, developed by Colin Jacobs of the Swinburne University of Technology in Australia, sifted through tens of millions of galaxy images to select a sample of 5,000 candidate gravitational lenses that are not immediately obvious to the human eye.",
+   
+        "d9":"'These lenses are very small, so if you have fuzzy images, you're not going to really be able to detect them,' Tran said in a statement(opens in new tab).",
+ 
+        "d10":"Tran and her team used the telescopes at the W. M. Keck Observatory in Hawaii and the Very Large Telescope in Chile to follow up on 77 of the 5,000 candidate lenses. They found 68 of these lenses to be real, and spectroscopically confirmed the redshifts of both the lens and the object being lensed for 53 of them. The lenses are typically at higher redshifts than most previously known lenses, meaning that astronomers can see deeper into the universe with them.",
+  
+        "d11":"The algorithm's 88% success rate in finding new lenses means there are now potentially thousands of new lenses for astronomers to choose from, though Tran said the team's aim was more modest. ",
+
+        "d12":"'Our goal … is to spectroscopically confirm around 100 strong gravitational lenses that can be observed from both the Northern and Southern hemispheres throughout the year,'' she said. ",
+
+        "d13":"The average redshift of the lenses is 0.58, which corresponds to a distance of about 5 billion light-years, whereas the faraway objects that are being magnified by the lenses are typically at redshifts of about 1.92, meaning their light set out about 10 billion years ago.",
+  
+        "d14":"'With these lenses at different distances, we can look at different points in the cosmic timeline to track how things change over time, between the very first galaxies and now,'Tran said.",
+
+        "d15":"'Normally these galaxies look like small, fuzzy blobs, but the lensing magnification allows us to see their structure with much better resolution,'Tucker Jones, an associate professor in the Department of Physics and Astronomy at the University of California, Davis, and a member of the research team, said in the statement.",
+  
+        "d16":"The lenses therefore provide promising targets for follow-up with observatories such as the Hubble Space Telescope and the James Webb Space Telescope."
+}]
+ 

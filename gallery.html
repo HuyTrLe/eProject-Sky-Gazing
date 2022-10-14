@@ -1,0 +1,13 @@
+<div class="gallery__container" ng-controller="galleryCtrl">
+  <h1 class="gallery__header">
+      <span class="gallery__number">05</span>
+      Our Gallery
+  </h1>
+  <div class="gallery__img-container" ng-repeat="x in galleryList">
+      <a target="_blank" class="gallery__item" href="./assets/gallery/{{x.img}}">
+          <img src="./assets/gallery/{{x.img}}" alt="" class="gallery__img" width="600" height="400">
+      </a>
+      <h2 class="gallery__img-description" >{{x.name}}</h2>
+  </div>
+  <div class="clear"></div>
+</div>

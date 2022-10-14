@@ -1,0 +1,91 @@
+<div class="star__container-big" ng-controller="starCtrl" ng-repeat="x in dataList">
+    <div class="star__container">
+      <div class="star__header-container">
+          <h1 class="star__header">
+            <span class="star__header-number">{{x.d1}}</span>
+            {{x.d2}}
+          </h1>
+          <ul class="star-list__tab">
+            <li class="star-list__tab-item active-nav">
+              <a href="#!star" class="star-list__tab-link">Definition</a>
+            </li>
+            <li class="star-list__tab-item">
+                <a href="#!starlist" class="star-list__tab-link">Constellations</a>
+            </li>
+            <li class="star-list__tab-item">
+              <a href="#!comet" class="star-list__tab-link">Comet</a>
+            </li>
+          </ul>
+      </div>
+      <img src="./assets/star/{{x.d3}}" alt="" class="star__img">
+      <h2 class="star__img-description">
+          {{x.d4}}
+      </h2>
+      <p class="star__description">
+         {{x.d5}}
+      </p>
+    </div>
+    <div class="star__container">
+      <h1 class="star__header">
+          <span class="star__header-number">{{x.d6}}</span>
+          {{x.d7}}
+      </h1>
+      <img src="./assets/star/{{x.d8}}" alt="" class="star__img">
+      <table class="star__table">
+        <thead>
+            <tr class="star__table-row">
+                <th class="star__table-header">{{x.d9}}</th>
+                <th class="star__table-header">{{x.d10}}</th>
+                <th class="star__table-header">{{x.d11}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d12}}</td>
+                <td class="star__table-data">{{x.d13}}</td>
+                <td class="star__table-data">{{x.d14}}</td>
+            </tr>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d15}}</td>
+                <td class="star__table-data">{{x.d16}}</td>
+                <td class="star__table-data">{{x.d17}}</td>
+            </tr>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d18}}</td>
+                <td class="star__table-data">{{x.d19}}</td>
+                <td class="star__table-data">{{x.d20}}</td>
+            </tr>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d21}}</td>
+                <td class="star__table-data">{{x.d22}}</td>
+                <td class="star__table-data">{{x.d23}}</td>
+            </tr>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d24}}</td>
+                <td class="star__table-data">{{x.d25}}</td>
+                <td class="star__table-data">{{x.d26}}</td>
+            </tr>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d27}}</td>
+                <td class="star__table-data">{{x.d28}}</td>
+                <td class="star__table-data">{{x.d29}}</td>
+            </tr>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d30}}</td>
+                <td class="star__table-data">{{x.d31}}</td>
+                <td class="star__table-data">{{x.d32}}</td>
+            </tr>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d33}}</td>
+                <td class="star__table-data">{{x.d34}}</td>
+                <td class="star__table-data">{{x.d35}}</td>
+            </tr>
+            <tr class="star__table-row">
+                <td class="star__table-data">{{x.d36}}</td>
+                <td class="star__table-data">{{x.d37}}</td>
+                <td class="star__table-data">{{x.d38}}</td>
+            </tr>
+        </tbody>        
+      </table>
+    </div>
+</div> 

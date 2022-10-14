@@ -1,0 +1,76 @@
+  <div class="comet__container-big" ng-controller="cometCtrl" ng-repeat="x in dataList">
+    <div class="comet__container">
+      <div class="comet__header-container">
+        <h1 class="comet__header">
+            <span class="comet__number">{{x.d1}}</span>
+            {{x.d2}}
+        </h1>
+        <ul class="star-list__tab">
+          <li class="star-list__tab-item">
+            <a href="#!star" class="star-list__tab-link">Definition</a>
+          </li>
+          <li class="star-list__tab-item">
+              <a href="#!starlist" class="star-list__tab-link">Constellations</a>
+            </li>
+          <li class="star-list__tab-item active-nav">
+            <a href="#!comet" class="star-list__tab-link">Comet</a>
+          </li>
+        </ul>
+      </div>
+      <img src="./assets/star/{{x.d3}}" alt="" class="comet__img">
+      <h2 class="comet__img-description">{{x.d4}}</h2>
+      <p class="comet__description">
+       {{x.d5}}
+      </p>
+    </div>
+  
+    <div class="comet__container">
+      <h1 class="comet__header">
+          <span class="comet__number">{{x.d6}}</span>
+          {{x.d7}}
+      </h1>
+      <img src="./assets/star/{{x.d8}}" alt="comet-halley" class="comet__img">
+      <h2 class="comet__img-description">{{x.d19}}</h2>
+      <ul class="comet__fact-list">
+        <li class="comet__fact-item">
+          <p class="comet__fact-description">
+           {{x.d10}}
+          </p>
+        </li>
+        <li class="comet__fact-item">
+          <p class="comet__fact-description">
+           {{x.d11}}
+          </p>
+          <li class="comet__fact-item">
+            <p class="comet__fact-description">
+             {{x.d12}}
+            </p>
+            <li class="comet__fact-item">
+              <p class="comet__fact-description">
+               {{x.d13}}
+              </p>
+              <li class="comet__fact-item">
+                <p class="comet__fact-description">
+                 {{x.d14}}
+                </p>
+                <li class="comet__fact-item">
+                  <p class="comet__fact-description">
+                   {{x.d15}}
+                  </p>
+                  <li class="comet__fact-item">
+                    <p class="comet__fact-description">
+                     {{x.d16}}
+                    </p>
+                    <li class="comet__fact-item">
+                      <p class="comet__fact-description">
+                       {{x.d17}}
+                      </p>
+                      <li class="comet__fact-item">
+                        <p class="comet__fact-description">
+                         {{x.d18}}
+                        </p>
+                      
+      </ul>
+    </div>
+  </div>
+</body>  

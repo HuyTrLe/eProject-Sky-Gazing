@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "type": "Img",
+        "name": "Blood Moon",
+        "img": "bloodmoon.jpg"
+    },
+    {
+        "id": 2,
+        "type": "Img",
+        "name": "Star trail",
+        "img": "star-trail.jpg"
+    },
+    {
+        "id": 3,
+        "type": "Img",
+        "name": "Milky way",
+        "img": "milky-way.jpg"
+    },
+    {
+        "id": 4,
+        "type": "Img",
+        "name": "Comet in space",
+        "img": "comet copy.jpg"
+    },
+    {
+        "id": 5,
+        "type": "Img",
+        "name": "Moon",
+        "img": "moon.jpg"
+    },
+    {
+        "id": 6,
+        "type": "Img",
+        "name": "Background comet",
+        "img": "nature.jpg"
+    },
+    {
+        "id": 7,
+        "type": "Img",
+        "name": " space",
+        "img": "space.png"
+    },
+    {
+        "id": 8,
+        "type": "Img",
+        "name": "Star night",
+        "img": "star-night.jpg"
+    },
+    {
+        "id": 9,
+        "type": "Img",
+        "name": " Nebula",
+        "img": "nebula.jpg"
+    },
+    {
+        "id": 10,
+        "type": "Img",
+        "name": " aerospace",
+        "img": "aerospace.jpg"
+    },
+    {
+        "id": 11,
+        "type": "Img",
+        "name": " andromeda galaxy",
+        "img": "andromeda-galaxy.jpg"
+    },
+    {
+        "id": 12,
+        "type": "Img",
+        "name": "astronaut",
+        "img": "astronut.jpg"
+    }
+]

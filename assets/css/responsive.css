@@ -1,0 +1,421 @@
+/* Mobile  < 740px*/
+@media only screen and (max-width: 46.1875em) {
+    #primary-header {
+        /* height: 47rem; */
+        height: auto;
+    }
+    .primary-header::after {
+        display: none;
+    }
+    .logo-container {
+        margin-left: 0;
+        width: 50%;
+    }
+    .nav-list {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+    .nav-list .nav-item {
+        margin-right: 0;
+    }
+    .nav-item > a {
+        display: block;
+    }
+    nav {
+        background-color: rgb(11, 13, 23);
+    }
+    .mobile-menu-btn {
+        display: block;
+        width: 100%;
+    }
+    .mobile-toggle {
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 3rem;
+        padding-top: 3rem;
+    }
+    .mobile-toggle:hover {
+        opacity: .6;
+        cursor: pointer;
+    }
+    .nav-item {
+        width: 100%;
+        padding: 1.2rem 0;
+        margin-right: 0rem;
+    }
+    .main-container {
+        padding-top: 10rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        overflow-x: hidden;
+        background-image: url('../../assets/home/background-home-mobile.jpg');
+    }
+    main {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .text-container {
+        width: 100%;
+    }
+    .header-title {
+        font-size: 9.8rem;
+        letter-spacing: normal;
+    }
+    .text-desciption {
+        font-size: 2.4rem;
+    }
+    .button-container {
+        flex-direction: column;
+        padding-top: 2rem;
+        margin-right: 0;
+    }
+    #footer {
+        flex-direction: column;
+    }
+    .footer-list {
+        width: 100%;
+    }
+    .footer-item {
+        margin-right: 0;
+    }
+    .footer-link {
+        letter-spacing: normal;
+    }
+    .footer-name {
+        letter-spacing: normal;
+    }
+    .planet__container {
+        padding-top: 10rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0rem;
+        width: 90.0rem;
+    }
+    .tab-content {
+        padding-bottom: 2rem;
+    }
+    .planet__wrap {
+        flex-direction: column;
+    }
+    .planet__img-container {
+        width: 100%;
+    }
+    .planet__content-container {
+        width: 100%;
+    }
+    .planet__description {
+        padding-bottom: 0;
+    }
+    .planet__distance-description {
+        text-transform: capitalize;
+    }
+    .planet__distance-info {
+        margin-right: 0;
+    }
+    .star-list__container {
+        padding-top: 10rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .star-list__header-container {
+        flex-direction: column;
+    }
+    .star-list__tab {
+        font-size: 2.0rem;
+    }
+    .star-list__list {
+        padding-left: 2rem;
+    }
+    .star__container-big {
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 90.0rem;
+    }
+    .star__header-container {
+        flex-direction: column;
+    }
+    .comet__container {
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .comet__header-container {
+        flex-direction: column;
+    }
+    #constellation__container {
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .constellation__name-container {
+        flex-direction: column;
+    }
+    .constellation__name {
+        text-align: center;
+    }
+    .news__container {
+        padding-top: 8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .news__list {
+        padding-left: 1rem;
+    }
+    .news__info-header {
+        letter-spacing: normal;
+    }
+    .news__info {
+        letter-spacing: normal;
+    }
+    .news1__container {
+        padding-top: 6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .obser__container {
+        padding-top: 8rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .obser__name {
+        letter-spacing: normal;
+    }
+    .obser__header {
+        padding-left: 2rem;
+    }
+    .obser__map iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .gallery__container {
+        padding-top: 8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .gallery__img-container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .member__container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .site-map__container {
+        padding-top: 8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+    .contact__container {
+        padding-bottom: 2rem;
+        padding-top: 8rem;
+    }
+    .contact__header {
+        padding-left: 1rem;
+        margin-left: 0;
+    }
+    .contact__text-container-big {
+        flex-direction: column;
+        padding-top: 4.8rem;
+    }
+    .contact__text-container {
+        width: 100%;
+        margin: 0;
+        padding-left: 6rem;
+        padding-right: 0;
+    }
+    .contact__map {
+        margin: 0;
+        padding-right: 0;
+        padding-top: 4rem;
+        padding-left: 2rem;
+        text-align: center;
+    }
+    .contact__map iframe {
+        width: 360px;
+        height: 300px;
+    }
+}
+
+/* Tablet width >= 740px and width < 1024px*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .primary-header {
+        height: 15rem;
+    }
+    .primary-header::after {
+        width: 0%;
+    }
+    .logo-container {
+        margin-left: 0;
+        display: none;
+    }
+    .nav-list {
+        padding: 1.0rem 0;
+        margin-top: 0!important;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .nav-list .nav-item {
+        margin-right: 0;
+        padding: 0.8rem 1.2rem;
+        width: 33%;
+    }
+    .nav-item > a {
+        font-size: 1.8rem;
+    }
+    .main-container {
+        padding-top: 16rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-image: url('../../assets/home/background-home-tablet.jpg');
+    }
+    main {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-container {
+        width: 100%;
+    }
+    .intro {
+        text-align: center;
+    }
+    .button-container {
+        padding-top: 4rem;
+        margin-right: 0;
+    }
+    #footer {
+        flex-direction: column;
+    }
+    .footer-list {
+        width: 100%;
+    }
+    .footer-item {
+        margin-right: 0;
+    }
+    .footer-info {
+        font-size: 2.0rem;
+    }
+    .planet__container {
+        padding-top: 16rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .planet__wrap {
+        flex-direction: column;
+    }
+    .planet__img-container {
+        width: 100%;
+    }
+    .planet__content-container {
+        width: 100%;
+    }
+    .star-list__container {
+        padding-top: 16rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .star-list__header-container {
+        flex-direction: column;
+    }
+    .star__container-big {
+        padding-top: 10rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .star__header-container {
+        flex-direction: column;
+    }
+    .comet__container {
+        padding-top: 10rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .comet__header-container {
+        flex-direction: column;
+    }
+    #constellation__container {
+        padding-top: 6rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .constellation__name-container {
+        flex-direction: column;
+    }
+    .constellation__name {
+        text-align: center;
+    }
+    .constellation__best-place {
+        text-align: center;
+    }
+    .news__container {
+        padding-top: 16rem;
+        padding-left: 4rem;
+        padding-right: 2rem;
+    }
+    .news__list {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .news1__container {
+        padding-top: 12rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .obser__container {
+        padding-top: 16rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .obser__info-container {
+        margin-top: 0;
+    }
+    .gallery__container {
+        padding-top: 16rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gallery__img-container {
+        width: calc(100%/3);
+        margin-right: 5.4rem;
+        margin-left: 5.8rem;
+    }
+    .site-map__container {
+        padding-top: 16rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 2rem;
+    }
+    .member__container {
+        padding-top: 16rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .member__content {
+        height: 80.0rem;
+    }
+    .contact__container {
+        padding-top: 16rem;
+    }
+    .contact__text-container-big {
+        flex-direction: column;
+        padding-top: 3.8rem;
+        padding-bottom: 8.8rem;
+        height: 80.0rem;
+    }
+    .contact__header {
+        margin-left: 0;
+        padding-left: 8rem;
+    }
+    .contact__text-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact__map {
+        padding: 4.8rem 0;
+    }
+}

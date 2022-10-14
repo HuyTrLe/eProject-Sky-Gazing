@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<div class="member__container" ng-controller="aboutusCtrl" ng-repeat="x in dataList">
+  <h2 class="member__header">
+    <span class="member__number">{{x.d1}}</span>
+    {{x.d2}}
+  </h2>
+  <div class="member__content">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 ">
+          <div class="thumbnail abcenter">
+            <a >
+              <img src="./assets/img/{{x.d3}}" class="imgwh">
+              <div class="caption">
+                <h1 class="hh13" >{{x.d4}}</h1>
+                <h3 class="hh13">{{x.d5}}</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4 ">
+        <div class="thumbnail abcenter">
+            <a>
+              <img src="./assets/img/{{x.d6}}"  class="imgwh">
+              <div class="caption">
+                <h1 class="hh13">{{x.d7}}</h1>
+                <h3 class="hh13">{{x.d8}}</h3>
+              </div>
+            </a>
+        </div>
+        </div>
+        <div class="col-sm-4 ">
+        <div class="thumbnail abcenter">
+            <a>
+              <img src="./assets/img/{{x.d9}}" class="imgwh">
+              <div class="caption">
+                <h1 class="hh13">{{x.d10}}</h1>
+                <h3 class="hh13">{{x.d11}}</h3>
+              </div>
+            </a>
+        </div>
+        </div>        
+      </div> 
+    </div>
+  </div>
+</div>

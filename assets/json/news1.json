@@ -1,0 +1,61 @@
+[      
+{
+    "d1":"Behold! This is the first photo of the Milky Way's monster black hole Sagittarius A",
+
+    "d2":"An image of the supermassive black hole at the center of the Milky Way, a behemoth dubbed Sagittarius A*, revealed by the Event Horizon Telescope on May 12, 2022. (Image credit: Event Horizon Telescope collaboration)",
+ 
+    "d3":" The Event Horizon Telescope has captured a historic first image of the supermassive black hole at the center of our galaxy.",
+   
+    "d4":" The image, which was taken in the light of submillimeter radio waves, confirms that there is a black hole in the heart of the Milky Way that is feeding on a trickle of hydrogen gas.",
+    
+    "d5":" Until now, we didn't have the direct picture to prove that this gentle giant in the center of our galaxy is a black hole, Feryal Özel, an astrophysicist at the University of Arizona, said during a National Science Foundation news conference held Thursday (May 12). It shows a bright ring surrounding the darkness, and the telltale sign of the shadow of the black hole.",
+
+    "d6":" This is an astounding achievement,Ryan Hickox, an astrophysicist at Dartmouth College who is not a member of the EHT team, told Space.com. I think I speak for a large number of my astronomy colleagues when I say how remarkably grateful we are.",
+   
+    "d7":" In 2019, the Event Horizon Telescope (EHT) made headlines when it succeeded in producing the first ever image of the event horizon of a black hole, specifically the black hole at the center of the active elliptical galaxy Messier 87. At the same time as it gathered the data that became that image, the EHT also performed observations of Sagittarius A*, which is the name given to the Milky Way's supermassive black hole. However, producing an image of Sagittarius A* proved more difficult than for M87.",
+  
+    "d8":" For one thing, Earth's water-laden atmosphere can absorb the submillimeter radio waves that the EHT relies on. Moreover, gas and dust in the intervening 27,000 light-years between us and Sagittarius A* can scatter the submillimeter waves and blur the image. Lastly, whereas M87's black hole has a voracious appetite and appears bright because it is consuming a lot of gas, the flow of material onto Sagittarius A* is far more feeble, meaning it is much fainter.",
+   
+    "d9":" Getting to this image wasn't an easy journey, Özel said. It took several years to refine the image and confirm what he had.",
+   
+    "d10":"A collage shows the first image of the black hole at the center of the Milky Way at its location on the sky. (Image credit: ESO/José Francisco Salgado (josefrancisco.org), EHT Collaboration)", 
+    
+    "d11":" Ghez shared the 2020 Nobel Prize in Physics for measuring the mass of Sagittarius A* by observing the motions of stars orbiting close to it. Ghez and her team calculated a mass that was 4.3 million times the mass of our sun.", 
+  
+    "d12":" Since the size of the event horizon is connected to the mass of the black hole, it was therefore possible to make a prediction, Ghez said. The power of imaging the black hole's ring is that, if you know the mass and distance to the black hole — in other words, the size of the event horizon — then you can use that to compare to theory.",
+    
+    "d13":" The new image shows that the size of Sagittarius A*'s event horizon is 51.8 microarcseconds on the sky.",
+  
+    "d14":"Our image is in very close agreement with theoretical predictions, said Özel, who described it as the biggest test of Einstein's theory of general relativity ever made, noting that the theory passed with flying colors.",
+    
+    "d15": "It's a great laboratory for trying to understand how gravity works in the vicinity of a supermassive black hole, Ghez said.",
+    
+    "d16":"A comparison of Event Horizon Telescope views of the black holes at the center of the galaxy M87, on the left, and of the one in the Milky Way, at right. (Image credit: EHT Collaboration)",
+    
+    "d17":" More uncertain are our explanations for the turbulence seen in the gas ring. The black hole of M87 is much larger than Sagittarius A*, and therefore it takes days for changes to become apparent, whereas Sagittarius A* is much smaller and, as material whips around it, the brightness of the ring can change in mere minutes",
+   
+    "d18":"It is teeming with activity, always gurgling with turbulent energy, Johnson said of the ring around the event horizon.",
+   
+    "d19":"To try to explain what they were seeing, the EHT team — which is made up of more than 300 researchers across 80 institutions — performed more than 5 million supercomputer simulations to try and find one that was a match for what they observed.", 
+   
+    "d20": "We were left with only a handful of simulations that share the features that we observe, but none of them explain all the features, Johnson said. In particular, the simulations all predicted more and faster variability than what was actually seen, and could relate to how gas is accreting onto the ring, or how magnetic fields are interacting with that inflow.",
+   
+    "d21":"Reacting to the image, Hickox said that it's just remarkable to see an image of the black hole that we know best, and to see the ring and measure the shadow size as accurately as they did.",
+    
+    "d22":"Furthermore, this image of Sagittarius A* can now act as a template for other quiescent black holes in the universe.",
+  
+    "d23":"This black hole is more typical of the overall set of black holes in the universe than the one in M87, Hickox said. “If you were just to take a picture of a random supermassive black hole in a galaxy somewhere in the universe, then this is what it would look like.",
+   
+    "d24":" This image of Sagittarius A*, and of the black hole in M87 before it, has been made possible through the magic of a technique known as Very Long Baseline Interferometry, which allows astronomers to combine data from radio telescopes all across the world as though they were one large telescope, effectively making the EHT the largest telescope on Earth.",
+    
+    "d25":" At the time when the observations were made, the network consisted of eight telescopes (including one, the South Polar Telescope, that was too far south to study M87), although three more have since been added to the network. The eight-telescope configuration means that the EHT's maximum baseline — which is equivalent to a telescope's aperture — for observing Sagittarius A* was 6,650 miles (10,700 kilometers) across.",
+   
+    "d26":"Future observations will now focus on getting sharper images to better understand the physics of turbulence in the ring around the black hole, as well as how the black hole affects the environment of the galaxy around it.",
+   
+    "d27":"This is driving us to make even better measurements and sharper images, Johnson said.",
+    
+    "d28":"Sagittarius A* and the black hole in M87 were the EHT's top two targets because of their relatively large angular size on the sky. Supermassive black holes in other galaxies appear far smaller on the sky, beyond even the abilities of the EHT to image their event horizon. To be able to do so would require a lengthening of the baseline — that is, to widen the EHT's aperture — between the two widest points in the EHT's network. In this sense, the resolution that the EHT can achieve is limited by the size of Earth, but Hickox says there are possibilities beyond Earth.",
+   
+    "d29":"I've heard talk about potentially having a space-based addition to the EHT, which would significantly increase the overall angular resolution, he told Space.com. That would be an exciting step forward."
+} 
+]

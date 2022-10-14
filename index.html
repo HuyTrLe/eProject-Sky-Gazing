@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/index.css" >
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <!-- Link fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+  <!-- Link icon -->
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+  <!-- Link logo -->
+  <link rel="icon" type="image/png" sizes="32x32"  href="./assets/shared/logo.svg">
+
+  <!--Bắt đầu gọi thư viện ANGULARJS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+  <!--Kết thúc gọi thư viện ANGULARJS-->
+  <title>Sky Gazing</title>
+</head>
+<body ng-app="myApp">
+  <header id="primary-header" class="primary-header">
+    <div class="logo-container">
+      <a href="#!/" class="logo-link">
+        <img class="header-logo" src="./assets/shared/logo.svg" alt="">        
+      </a>
+    </div>
+    <nav ng-controller="MainCtrl">
+        <ul id="nav-list" class="nav-list">
+          <li class="nav-item ">
+            <a class="" href="#!/" >
+              <span class="nav-number">00</span> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#!planet" >
+              <span class="nav-number">01</span> Planets
+            </a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="#!starlist">
+              <span class="nav-number">02</span> Stars
+            </a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="#!news" >
+              <span class="nav-number">03</span>
+              News
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#!observatories" >
+              <span class="nav-number">04</span> 
+              Observatories
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#!gallery">
+              <span class="nav-number">05</span> 
+              Gallery
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#!sitemap" >
+              <span class="nav-number">06</span> 
+              Site Map 
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#!about-us">
+              <span class="nav-number">07</span> 
+              About us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#!contact-us" >
+              <span class="nav-number">08</span> 
+              Contact Us
+            </a>
+          </li>
+        </ul>
+        <div id="mobile-menu" class="mobile-menu-btn">
+          <img src="./assets/shared/icon-hamburger.svg" alt="" id="mobile-toggle" class="mobile-toggle">
+        </div>
+    </nav>
+    
+  </header>
+  <div>
+    <ng-view>
+    </ng-view>
+  </div>
+</body>
+<script src="myApp.js"></script>
+<script src="menu-mobile.js"></script>
+</html>
