@@ -1,3 +1,5 @@
+# eProject-Sky Gazing
+
 T1.2206.E1 eProject group 6
 
 CENTER NAME: ACE-HCMC-2-FPT
@@ -8,10 +10,10 @@ Project-title: Sky Gazing Website
 
 3 collarborators:
 
-Group members                  Name	                           Student ID
-                          Trần Hoàng Tú (Team leader)        Student1387806
-                          Trần Lê Huy                        Student1387823 
-                          Nguyễn Đình Nam                    Student1387805       
+    Group members                  Name	                           Student ID
+                              Trần Hoàng Tú (Team leader)            Student1387806
+                              Trần Lê Huy                            Student1387823  
+                              Nguyễn Đình Nam                        Student1387805         
 ============================
 
 eProject documentation at: 
