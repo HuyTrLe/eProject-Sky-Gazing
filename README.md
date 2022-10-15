@@ -24,7 +24,7 @@ eProject published at: https://huytrle.github.io/eProject-Sky-Gazing/#!/
 
 ============================
 
-eProject video published at: https://www.youtube.com/watch?v=v-HRn5QVQQI
+eProject video published at: https://www.youtube.com/watch?v=f9BksbynG3M
 
 ============================
 
